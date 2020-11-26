@@ -1,0 +1,75 @@
+// font-family: 'Lato', sans-serif;
+
+// Body
+body {
+  font-family: "Lora", serif;
+  letter-spacing: 1px;
+}
+
+// Nav
+.navbar {
+  padding: 30px 0px 0px 0px;
+}
+
+.links {
+  font-family: "Lato", sans-serif;
+}
+
+.button {
+  background-color: white;
+  border: black 1px solid;
+  color: black;
+  border-radius: 0px;
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
+.button:hover {
+  background-color: white;
+  border: red 1px solid;
+  color: red;
+  border-radius: 0px;
+}
+
+// Home Page
+.home-menu-row {
+  margin-bottom: 30px;
+}
+
+.home-main-image {
+  padding: 40px 0px 100px 0px;
+}
+
+.intro-paragraph {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 100px;
+}
+
+.option {
+  font-size: 4em;
+}
+
+.home-menu {
+  text-align: right;
+}
+
+.home-contact {
+  text-align: left;
+}
+
+// Footer
+.footer-row {
+  background-color: #6f7271;
+  color: white;
+}
+
+.footer-left {
+  text-align: left;
+}
+.footer-center {
+  text-align: center;
+}
+.footer-right {
+  text-align: right;
+}
