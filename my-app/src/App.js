@@ -1,8 +1,8 @@
 import React from "react";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import Home from "./components/home/home";
-import Browse from "./components/browse/browse";
-import CookiePage from "./components/cookiepage/cookiepage";
+import Menu from "./components/menu/menu";
+import Gallary from "./components/gallary/gallary";
 import Container from "react-bootstrap/Container";
 
 import Navigation from "./components/navigation/navigation";
@@ -19,8 +19,8 @@ function App() {
         <Navigation></Navigation>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/browse" component={Browse} />
-          <Route exact path="/cookies" component={CookiePage} />
+          <Route exact path="/menu" component={Menu} />
+          <Route exact path="/gallary" component={Gallary} />
         </Switch>
         <Footer></Footer>
       </Router>

@@ -13,8 +13,9 @@ function Navigation() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto links">
           <Nav.Link href="/gallary">Gallary</Nav.Link>
+          <Nav.Link href="/menu">Menu</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
-          <Button  href="/order" className="nav-order button">Order</Button>
+          {/* <Button  href="/order" className="nav-order button">Order</Button> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

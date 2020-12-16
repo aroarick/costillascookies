@@ -37,13 +37,13 @@ body {
 }
 
 .home-main-image {
-  padding: 40px 0px 100px 0px;
+  margin: 40px 0px 100px 0px;
 }
 
 .intro-paragraph {
   text-align: center;
   font-size: 2em;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .option {
@@ -56,6 +56,32 @@ body {
 
 .home-contact {
   text-align: left;
+}
+
+.home-contact {
+  margin-bottom: 50px;
+}
+
+// Menu
+.menu-cookie-title {
+  text-align: center;
+}
+
+.menu-cookie-title-cookies {
+  text-align: right;
+}
+
+.menu-cookie-title-cakes {
+  text-align: left;
+}
+
+.menu-cookie-flavor-option {
+  text-align: center;
+}
+
+// Gallary
+.gallary-images {
+  margin: 10px;
 }
 
 // Footer
@@ -72,4 +98,12 @@ body {
 }
 .footer-right {
   text-align: right;
+}
+
+.top-words {
+  margin-top: 30px;
+}
+
+.footer-header {
+  font-size: 30px;
 }
