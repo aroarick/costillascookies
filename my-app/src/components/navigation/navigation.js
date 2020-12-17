@@ -15,6 +15,7 @@ function Navigation() {
           <Nav.Link href="/gallary">Gallary</Nav.Link>
           <Nav.Link href="/menu">Menu</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
+          <Nav.Link href="/order">Order</Nav.Link>
           {/* <Button  href="/order" className="nav-order button">Order</Button> */}
         </Nav>
       </Navbar.Collapse>

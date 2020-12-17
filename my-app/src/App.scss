@@ -84,10 +84,23 @@ body {
   margin: 10px;
 }
 
+// Order
+.order-buttons {
+  border: 2px solid #6f7271;
+  background: white;
+  color: #6f7271;
+}
+.order-buttons:hover {
+  border: 2px solid #6f7271;
+  background: #6f7271;
+  color: white;
+}
+
 // Footer
 .footer-row {
   background-color: #6f7271;
   color: white;
+  flex-shrink: 0;
 }
 
 .footer-left {
