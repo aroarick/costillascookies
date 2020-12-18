@@ -106,6 +106,18 @@ body {
   text-align: center;
 }
 
+.order-cookies {
+  border: 2px solid #6f7271;
+  background: white;
+  color: #6f7271;
+  border-radius: 0px;
+  margin: 5px 5px 10px 5px;
+}
+.order-cookies:hover {
+  border: 2px solid #6f7271;
+  background: #6f7271;
+  color: white;
+}
 // Footer
 .footer-row {
   background-color: #6f7271;

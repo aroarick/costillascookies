@@ -4,16 +4,16 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
-function cookieOrder() {
+function cakeOrder() {
   return (
     <>
-        <p className="order-questions">How many cookies do you want?</p>
+        <p className="order-questions">How many cakes do you want?</p>
         <Row>
             <Button className="order-cookies">1</Button>
-            <Button className="order-cookies">12</Button>
-            <Button className="order-cookies">24</Button>
-            <Button className="order-cookies">36</Button>
-            <Button className="order-cookies">48</Button>
+            <Button className="order-cookies">2</Button>
+            <Button className="order-cookies">3</Button>
+            <Button className="order-cookies">4</Button>
+            <Button className="order-cookies">5</Button>
         </Row>
         <p className="order-questions">What is the occasion?</p>
         <Row>
@@ -50,12 +50,11 @@ function cookieOrder() {
                 <Button className="order-cookies">Strawberry</Button>
             </Col>
         </Row>
-        <p className="order-questions">What Shape(s) do you want?</p>
+        <p className="order-questions">What Cake Option Do You Want?</p>
         <Row>
-            <Button className="order-cookies">Circle</Button>
-            <Button className="order-cookies">Square</Button>
-            <Button className="order-cookies">Triangle</Button>
-            <Button className="order-cookies">Special</Button>
+            <Button className="order-cookies">Buttercream frosting around the outside with an optional message</Button>
+            <Button className="order-cookies">Buttercream frosting around the outside and a sugar cookie in the middle with an optional message</Button>
+            <Button className="order-cookies">Buttercream frosting around the outside with one sugar cookie in the middle with an optional message, and 6 sugar cookies around the perimeter of the cake.</Button>
         </Row>
         <p className="order-questions">What Color(s) do you want?</p>
         <Row>
@@ -76,4 +75,4 @@ function cookieOrder() {
   );
 }
 
-export default cookieOrder;
+export default cakeOrder;

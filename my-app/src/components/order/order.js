@@ -14,7 +14,7 @@ function Order() {
                 <Button href="/cookieOrder" className="order-buttons">Cookies</Button>
             </Col>
             <Col>
-                <Button className="order-buttons">Cakes</Button>
+                <Button href="/cakeOrder" className="order-buttons">Cakes</Button>
             </Col>
         </Row>
         <Row>
