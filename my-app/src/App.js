@@ -17,7 +17,7 @@ import Footer from "./components/footer/footer";
 
 function App() {
   return (
-    <Container fluid>
+    <Container className="costilla-cookies-website" fluid>
       <Router>
         <Navigation></Navigation>
         <Switch>

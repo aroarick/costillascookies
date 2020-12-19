@@ -19,7 +19,8 @@ function Home() {
       <Row>
         <Col></Col>
         <Col md={9}>
-          <h1 className="intro-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, facere laboriosam earum cum, eos alias dignissimos aliquid eum, soluta libero corporis harum recusandae itaque. Officiis, voluptate. Cum ad quo dolorum.</h1>
+          <h1 className="intro-paragraph">My cookie business is operated out of my house.  I am a  Texas Cottage and operate under the Texas Cottage Food Law.  I currently offer regular sugar cookies, chocolate sugar cookies, chocolate chip sugar cookies, and gluten-free sugar cookies.  
+</h1>
         </Col>
         <Col></Col>
       </Row>
