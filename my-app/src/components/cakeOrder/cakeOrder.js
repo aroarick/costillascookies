@@ -4,14 +4,15 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import { TwitterPicker } from 'react-color';
 
 function cakeOrder() {
   return (
     <>
-    <Container>
+    <Container className="order-container">
     <Row>
         <Col>
-            <p className="order-questions">How many cookies do you want?</p>
+            <p className="order-questions">How many cakes do you want?</p>
             <Form.Group>
                 <Form.Control as="select">
                     <option className="order-cookies"></option>
@@ -50,6 +51,19 @@ function cakeOrder() {
         </Row>
         <Row>
         <Col>
+        <p className="order-questions">What cake option do you want?</p>
+            <Form.Group>
+                <Form.Control as="select">
+                    <option className="order-cookies"></option>
+                    <option className="order-cookies">Buttercream frosting around the outside with an optional message</option>
+                    <option className="order-cookies">Buttercream frosting around the outside and a sugar cookie in the middle with an optional message</option>
+                    <option className="order-cookies">Buttercream frosting around the outside with one sugar cookie in the middle with an optional message, and 6 sugar cookies around the perimeter of the cake</option>
+
+                </Form.Control>
+            </Form.Group>
+            
+        </Col>
+            <Col>
             <p className="order-questions">What flavor(s) do you want</p>
             <Form.Group>
                 <Form.Control as="select">
@@ -64,31 +78,27 @@ function cakeOrder() {
                     <option className="order-cookies">GF Chocolate Chip</option>
                 </Form.Control>
             </Form.Group>
-        </Col>
-        <Col>
-            <p className="order-questions">What cake option do you want?</p>
-            <Form.Group>
-                <Form.Control as="select">
-                    <option className="order-cookies"></option>
-                    <option className="order-cookies">Buttercream frosting around the outside with an optional message</option>
-                    <option className="order-cookies">Buttercream frosting around the outside and a sugar cookie in the middle with an optional message</option>
-                    <option className="order-cookies">Buttercream frosting around the outside with one sugar cookie in the middle with an optional message, and 6 sugar cookies around the perimeter of the cake</option>
-
-                </Form.Control>
-            </Form.Group>
             </Col>
         </Row>
-        <p className="order-questions">What Color(s) do you want?</p>
         <Row>
-            <p>color wheel</p>
-        </Row>
-        <Row>
-            <Form>
-                <Form.Group controlId="exampleForm.ControlTextarea1">
-                    <Form.Label className="order-questions">Specifics</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
-                </Form.Group>
-            </Form>
+            <Col>
+                <p className="order-questions">What color(s) do you want?</p>
+                <TwitterPicker />
+            </Col>
+            <Col>
+                <Form>
+                    <Form.Group controlId="exampleForm.ControlTextarea1">
+                        <Form.Label className="order-questions">Do you have a theme?</Form.Label>
+                        <Form.Control as="textarea" rows={3} />
+                    </Form.Group>
+                </Form>
+                <Form>
+                    <Form.Group controlId="exampleForm.ControlTextarea1">
+                        <Form.Label className="order-questions">Specifics</Form.Label>
+                        <Form.Control as="textarea" rows={3} />
+                    </Form.Group>
+                </Form>
+            </Col>
         </Row>
         <Row>
             <Button className="order-submit">Submit Order</Button>

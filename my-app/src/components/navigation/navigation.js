@@ -8,15 +8,13 @@ function Navigation() {
   return (
     <>
     <Navbar fluid className="navbar" bg="light" expand="lg">
-      <Navbar.Brand href="/">Costilla's Cookies</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto links">
+        <Nav className="mr-auto links">
           <Nav.Link href="/gallary">Gallary</Nav.Link>
           <Nav.Link href="/menu">Menu</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
           <Nav.Link href="/order">Order</Nav.Link>
-          {/* <Button  href="/order" className="nav-order button">Order</Button> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

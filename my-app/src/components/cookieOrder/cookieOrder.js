@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import { BlockPicker } from 'react-color';
 
 function cookieOrder() {
   return (
@@ -80,12 +81,24 @@ function cookieOrder() {
             </Col>
         </Row>
         <Row>
-            <Form>
-                <Form.Group controlId="exampleForm.ControlTextarea1">
-                    <Form.Label className="order-questions">Specifics</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
-                </Form.Group>
-            </Form>
+            <Col>
+                <p className="order-questions">What color(s) do you want?</p>
+                <BlockPicker />
+            </Col>
+            <Col>
+                <Form>
+                    <Form.Group controlId="exampleForm.ControlTextarea1">
+                        <Form.Label className="order-questions">Do you have a theme?</Form.Label>
+                        <Form.Control as="textarea" rows={3} />
+                    </Form.Group>
+                </Form>
+                <Form>
+                    <Form.Group controlId="exampleForm.ControlTextarea1">
+                        <Form.Label className="order-questions">Specifics</Form.Label>
+                        <Form.Control as="textarea" rows={3} />
+                    </Form.Group>
+                </Form>
+            </Col>
         </Row>
         <Row>
             <Button className="order-submit">Submit Order</Button>
