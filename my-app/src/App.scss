@@ -1,145 +1,39 @@
-// font-family: 'Lato', sans-serif;
+////////////////////////////////////////////////////////////////
 
-// Body
-
-body {
-  font-family: "Lora", serif;
-  letter-spacing: 1px;
+//navigation
+.nav-container {
+  margin: 0px;
 }
 
-// Nav
-.navbar {
-  padding: 20px 0px 0px 0px;
+.logo {
+  height: 160px;
+  width: 190px;
 }
 
-.links {
-  font-family: "Lato", sans-serif;
-}
-
-// Home Page
-.home-menu-row {
-  margin-bottom: 30px;
-}
-
-.home-main-image {
-  margin: 20px 0px 100px 0px;
-}
-
-.intro-paragraph {
-  text-align: center;
-  font-size: 1em;
-  margin-bottom: 100px;
-}
-
-.option {
-  font-size: 4em;
-}
-
-.home-menu {
-  text-align: right;
-}
-
-.home-contact {
-  text-align: left;
-}
-
-.home-contact {
-  margin-bottom: 50px;
-}
-
-// Menu
-.menu-cookie-title {
-  text-align: center;
-}
-
-.menu-cookie-title-cookies {
-  text-align: right;
-}
-
-.menu-cookie-title-cakes {
-  text-align: left;
-}
-
-.menu-cookie-flavor-option {
-  text-align: center;
-}
-
-// Gallary
-.gallary-images {
-  margin: 10px;
-}
-
-// Order
-.order-buttons {
-  border: 2px solid #6f7271;
+.button {
   background: white;
-  color: #6f7271;
-  font-size: 28px;
+  color: #75151a;
+  border: 1px solid #75151a;
   border-radius: 0px;
-  width: 100%;
-  height: 16.5em;
-  margin: 30px 0px 32px 0px;
 }
-.order-buttons:hover {
-  border: 2px solid #6f7271;
-  background: #6f7271;
+.button:hover {
+  background: #75151a;
   color: white;
+  border: 1px solid #75151a;
+  border-radius: 0px;
 }
 
-// Order
-
-.order-questions {
+.nav-item {
   text-align: center;
-  width: 100%;
-}
-
-.order-cookies {
-  border: 2px solid #6f7271;
-  background: white;
-  color: #6f7271;
-  border-radius: 0px;
-  width: 100%;
-}
-.order-cookies:hover {
-  border: 2px solid #6f7271;
-  background: #6f7271;
-  color: white;
-}
-
-.order-submit {
-  margin-bottom: 30px;
-  border: 2px solid #6f7271;
-  background: white;
-  color: #6f7271;
-  border-radius: 0px;
-  width: 100%;
-}
-.order-submit:hover {
-  border: 2px solid #6f7271;
-  background: #6f7271;
-  color: white;
-}
-// Footer
-.footer-row {
-  background-color: #6f7271;
-  color: white;
-  flex-shrink: 0;
-}
-
-.footer-left {
-  text-align: left;
-}
-.footer-center {
-  text-align: center;
-}
-.footer-right {
-  text-align: right;
-}
-
-.top-words {
   margin-top: 30px;
+  text-transform: uppercase;
+  color: #75151a;
+  background: white;
+  border: white;
+  font-size: 0.9em;
 }
-
-.footer-header {
-  font-size: 30px;
+.nav-item:hover {
+  color: black;
+  background: white;
+  border: white;
 }

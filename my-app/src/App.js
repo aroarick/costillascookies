@@ -17,7 +17,6 @@ import Footer from "./components/footer/footer";
 
 function App() {
   return (
-    <Container className="costilla-cookies-website" fluid>
       <Router>
         <Navigation></Navigation>
         <Switch>
@@ -28,9 +27,8 @@ function App() {
           <Route exact path="/cookieOrder" component={cookieOrder} />
           <Route exact path="/cakeOrder" component={cakeOrder} />
         </Switch>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </Router>
-    </Container>
   );
 }
 

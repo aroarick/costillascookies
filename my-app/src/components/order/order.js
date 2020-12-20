@@ -1,4 +1,5 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
@@ -6,6 +7,7 @@ import Button from "react-bootstrap/Button";
 function Order() {
   return (
     <>
+    <Container>
         <Row>
             <Col>
                 <Button className="order-buttons">Kits</Button>
@@ -17,9 +19,7 @@ function Order() {
                 <Button href="/cakeOrder" className="order-buttons">Cakes</Button>
             </Col>
         </Row>
-        <Row>
-
-        </Row>
+    </Container>
     </>
   );
 }

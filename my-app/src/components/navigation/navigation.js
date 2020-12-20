@@ -1,23 +1,25 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
-import { FaFacebook } from "react-icons/fa";
 
 function Navigation() {
   return (
     <>
-    <Navbar fluid className="navbar" bg="light" expand="lg">
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto links">
-          <Nav.Link href="/gallary">Gallary</Nav.Link>
-          <Nav.Link href="/menu">Menu</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
-          <Nav.Link href="/order">Order</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <Container className="nav-container">
+      <Col lg={2}>
+          <Image className="nav-item logo" src="costillascookieslogo.jpeg"></Image>
+          <Button className="button">Order Online</Button>
+          <Button className="nav-item">Menu and Prices</Button>
+          <Button className="nav-item">Holiday Kits</Button>
+          <Button className="nav-item">Gallary</Button>
+          <Button className="nav-item">Reviews</Button>
+          <Button className="nav-item">The Story</Button>
+          <Button className="nav-item">Contact</Button>
+      </Col>
+    </Container>
     </>
   );
 }

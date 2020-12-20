@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import { BlockPicker } from 'react-color';
+import { SwatchesPicker } from 'react-color';
 
 function cookieOrder() {
   return (
@@ -83,7 +83,7 @@ function cookieOrder() {
         <Row>
             <Col>
                 <p className="order-questions">What color(s) do you want?</p>
-                <BlockPicker />
+                <SwatchesPicker />
             </Col>
             <Col>
                 <Form>
