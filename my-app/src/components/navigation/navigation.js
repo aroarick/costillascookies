@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
@@ -8,18 +8,20 @@ import Button from "react-bootstrap/Button";
 function Navigation() {
   return (
     <>
-    <Container className="nav-container">
-      <Col lg={2}>
-          <Image className="nav-item logo" src="costillascookieslogo.jpeg"></Image>
-          <Button className="button">Order Online</Button>
-          <Button className="nav-item">Menu and Prices</Button>
-          <Button className="nav-item">Holiday Kits</Button>
-          <Button className="nav-item">Gallary</Button>
-          <Button className="nav-item">Reviews</Button>
-          <Button className="nav-item">The Story</Button>
-          <Button className="nav-item">Contact</Button>
-      </Col>
-    </Container>
+    <Navbar bg="light" expand="lg">
+      <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link className="nav-item" href="/menu">Menu and Prices</Nav.Link>
+            <Nav.Link className="nav-item" href="/kits">Holiday Kits</Nav.Link>
+            <Nav.Link className="nav-item" href="/gallary">Gallary</Nav.Link>
+            <Nav.Link className="nav-item" href="/reviews">Reviews</Nav.Link>
+            <Nav.Link className="nav-item" href="/about">The Story</Nav.Link>
+            <Nav.Link className="nav-item" href="/contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+    </Navbar>
     </>
   );
 }

@@ -15,6 +15,7 @@
   color: #75151a;
   border: 1px solid #75151a;
   border-radius: 0px;
+  margin-bottom: 30px;
 }
 .button:hover {
   background: #75151a;
@@ -24,16 +25,19 @@
 }
 
 .nav-item {
-  text-align: center;
-  margin-top: 30px;
   text-transform: uppercase;
   color: #75151a;
   background: white;
   border: white;
-  font-size: 0.9em;
 }
 .nav-item:hover {
   color: black;
   background: white;
   border: white;
+}
+
+// Home
+
+.home-intro {
+  text-align: center;
 }

@@ -4,12 +4,9 @@ import Home from "./components/home/home";
 import Menu from "./components/menu/menu";
 import Gallary from "./components/gallary/gallary";
 import Order from "./components/order/order";
-import cookieOrder from "./components/cookieOrder/cookieOrder";
-import cakeOrder from "./components/cakeOrder/cakeOrder";
 import Container from "react-bootstrap/Container";
-
-import Navigation from "./components/navigation/navigation";
 import Footer from "./components/footer/footer";
+import Navigation from "./components/navigation/navigation";
 
 // import ReactGA from "react-ga";
 // ReactGA.initialize("UA-158563288-1");
@@ -24,8 +21,6 @@ function App() {
           <Route exact path="/menu" component={Menu} />
           <Route exact path="/gallary" component={Gallary} />
           <Route exact path="/order" component={Order} />
-          <Route exact path="/cookieOrder" component={cookieOrder} />
-          <Route exact path="/cakeOrder" component={cakeOrder} />
         </Switch>
         {/* <Footer></Footer> */}
       </Router>
